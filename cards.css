@@ -89,6 +89,18 @@
   padding: 15px 0px;
 }
 
+.arrow {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.arrow:hover{
+  color: #333;
+  cursor: pointer;
+}
+
+
 .card .title {
   font-size: 20px;
   transition: color 0.3s;
@@ -97,6 +109,7 @@
 .card .title:hover {
   text-decoration: underline;
   cursor: pointer;
+  color:#ccc3c3;
 }
 .card {
   display: flex;
