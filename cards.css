@@ -47,7 +47,6 @@
   text-decoration: underline;
 }
 
-
 .main-sub-title {
   font-size: 16px;
   color: #333;
@@ -58,6 +57,11 @@
   margin-top: 5%;
   display: flex;
   align-items: center;
+}
+
+.author:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .author img {
